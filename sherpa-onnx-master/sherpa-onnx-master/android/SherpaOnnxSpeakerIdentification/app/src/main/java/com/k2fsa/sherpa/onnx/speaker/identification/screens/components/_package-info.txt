@@ -1,0 +1,3 @@
+This folder contains reusable composable components for the screens layer.
+- DetectionRadar.kt: animated radar with breathing glow, tail arc, and center icon.
+

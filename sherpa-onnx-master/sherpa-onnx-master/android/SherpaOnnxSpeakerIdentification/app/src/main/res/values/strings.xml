@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">电信反诈</string>
+    <string name="app_title">电信反诈</string>
+
+    <string name="nav_home">主页</string>
+    <string name="nav_register">注册</string>
+    <string name="nav_view">用户</string>
+    <string name="nav_transcript">记录</string>
+    <string name="nav_fraud">欺诈</string>
+    <string name="nav_antispoof">鉴伪</string>
+
+    <string name="input_speaker_name_label">请输入说话人姓名</string>
+    <string name="num_recordings">%d 条录音</string>
+    <string name="start">开始</string>
+    <string name="stop">停止</string>
+    <string name="add">添加</string>
+    <string name="input_speaker_name_toast">请输入说话人姓名</string>
+    <string name="speaker_name_exists">用户“%s”已存在</string>
+    <string name="add_speaker_success">成功添加用户“%s”</string>
+    <string name="add_speaker_failed">添加用户“%s”失败</string>
+    <string name="audio_too_short_for_processing">音频时长过短，无法处理！</string>
+    <string name="audio_too_short_detailed" formatted="false">音频太短！收到 %d 采样点，需要 %d</string>
+    <string name="processing_error">处理时发生错误: %s</string>
+
+    <string name="delete_selected">删除所选</string>
+    <string name="delete_selected_count">删除 (%d)</string>
+    <string name="no_speakers_registered">尚未注册任何用户</string>
+    <string name="delete">删除</string>
+
+    <string name="similarity_threshold">相似度阈值: %.2f</string>
+    <string name="current_speaker">当前说话人: %s</string>
+    <string name="current_transcript">当前文本: %s</string>
+    <string name="clear">清空</string>
+    <string name="speaker_unknown">未知</string>
+    <string name="error">错误</string>
+    <string name="call_active">通话中</string>
+    <string name="call_idle">通话空闲</string>
+    <string name="listening">正在听取…</string>
+    <string name="current_speaker_label">当前说话人:</string>
+    <string name="no_speech_detected">未检测到语音…</string>
+    <string name="save_recording">保存录音</string>
+
+    <string name="permission_needed">本应用需要录音权限</string>
+    <string name="transcript_history_title">通话记录</string>
+    <string name="clear_all">清空全部</string>
+    <string name="no_transcripts_available">暂无通话记录。</string>
+    <string name="speaker_colon">%s:</string>
+
+    <string name="detect_scam_intent">欺诈意图检测</string>
+    <string name="fraud_dialog_title">欺诈检测结果</string>
+    <string name="fraud_dialog_loading">正在加载…</string>
+    <string name="fraud_dialog_close">关闭</string>
+    <string name="fraud_detection_title">诈骗意图手动检测</string>
+    <string name="fraud_detection_label">输入待分析文本</string>
+    <string name="fraud_detection_placeholder">在此处粘贴对话文本…</string>
+    <string name="fraud_detection_button">分析文本</string>
+    <string name="fraud_detection_initial_text">分析结果将显示在此处。</string>
+    <string name="fraud_detection_result_title">分析结果</string>
+</resources>
